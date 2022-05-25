@@ -59,7 +59,7 @@
     <div class="container d-flex align-items-center justify-content-between">
       <div class="container">
         <div id="logo" style="margin-top: 3%;" class="pull-left">
-          <h1><a href="/"><img src="assets/img/about.png" width="200" height="125"></a></h1>
+          <h1><a href="/"><img src="assets/img/higres.png" width="125" height="55"></a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
         </div>
@@ -104,6 +104,7 @@
         </span></h1>
       <div style="text-align:center; padding-top:5%;" class="container">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#about" class="btn-get-started scrollto"><i class="bi bi-play-circle">Watch Video</i></a>
 
       </div>
     </div>
@@ -160,7 +161,7 @@
         <div class="section-title">
           <h2>About</h2>
           <h3>Find Out More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p><i>an experienced team, equipped with the most innovative tools.</i></p>
         </div>
 
         <div class="row">
@@ -168,31 +169,10 @@
             <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li>
-                <i class="bx bx-store-alt"></i>
-                <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                </div>
-              </li>
-              <li>
-                <i class="bx bx-images"></i>
-                <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                </div>
-              </li>
-            </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              VISIDATA is a company built by professionals with extensive track record in delivering business inteligence solutions for corporations. We focus on helping companies deal with data deluge using the right tools with the right approach.
+              We learned from our clients experience that the the real measure of success in business intelligence is its extent of use by managers and users in their decision making and knowledge gathering.
+              Our mission is to help our clients rapidly implement and get immediate returns from, a reliable and relevant BI and Data Management system.
             </p>
           </div>
         </div>
