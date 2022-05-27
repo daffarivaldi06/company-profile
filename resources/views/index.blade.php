@@ -161,7 +161,7 @@
         <div class="section-title">
           <h2>About</h2>
           <h3>Find Out More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p><i>an experienced team, equipped with the most innovative tools.</i></p>
         </div>
 
         <div class="row">
@@ -176,7 +176,6 @@
               VISIDATA is a company built by professionals with extensive track record in delivering business inteligence solutions for corporations. We focus on helping companies deal with data deluge using the right tools with the right approach.
               We learned from our clients experience that the the real measure of success in business intelligence is its extent of use by managers and users in their decision making and knowledge gathering.
               Our mission is to help our clients rapidly implement and get immediate returns from, a reliable and relevant BI and Data Management system.
-
             </p>
           </div>
         </div>
