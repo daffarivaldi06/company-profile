@@ -638,9 +638,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Company Profile
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.company-profile .icon-box {
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -651,7 +651,7 @@ section {
     z-index: 1;
     height: 120px;
 }
-.featured-services .icon-box::before {
+.company-profile .icon-box::before {
     content: "";
     position: absolute;
     background: #cbe0fb;
@@ -662,38 +662,38 @@ section {
     transition: all 0.3s;
     z-index: -1;
 }
-.featured-services .icon-box:hover::before {
+.company-profile .icon-box:hover::before {
     background: #106eea;
     top: 0;
     border-radius: 0px;
 }
-.featured-services .icon {
+.company-profile .icon {
     margin-bottom: 15px;
 }
-.featured-services .icon i {
+.company-profile .icon i {
     font-size: 48px;
     line-height: 1;
     color: #106eea;
     transition: all 0.3s ease-in-out;
 }
-.featured-services .title {
+.company-profile .title {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
 }
-.featured-services .title a {
+.company-profile .title a {
     color: #111;
 }
-.featured-services .description {
+.company-profile .description {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 0;
 }
-.featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
+.company-profile .icon-box:hover .title a,
+.company-profile .icon-box:hover .description {
     color: #fff;
 }
-.featured-services .icon-box:hover .icon i {
+.company-profile .icon-box:hover .icon i {
     color: #fff;
 }
 
@@ -816,7 +816,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-    padding: 15px 0;
+    padding: 60px;
     text-align: center;
 }
 .clients img {
@@ -1621,5 +1621,33 @@ section {
         float: none;
         text-align: center;
         padding: 2px 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Partners
+--------------------------------------------------------------*/
+.partners {
+    padding: 60px;
+    text-align: center;
+}
+.partners img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+}
+.partners img:hover {
+    transform: scale(1.15);
+}
+@media (max-width: 768px) {
+    .partners img {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 400px) {
+    #video {
+        width: 100%;
     }
 }
