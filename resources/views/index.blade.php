@@ -117,7 +117,6 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
 
-          <h3><span>Company Profile</span></h3>
         </div>
         <p align="center">
           <img src="assets/img/about.png" class="img-fluid" alt="">
@@ -131,8 +130,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
-          <h3>Find Out More <span>About Us</span></h3>
+          <h3><span>About Us</span></h3>
         </div>
 
         <div class="row">
@@ -246,8 +244,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"> <img src="assets/img/serv/1.png" class="img-fluid" alt="">
-              </div>
+
+              <img src="assets/img/serv/1.png" style="width:150px; height:100px;" class="img-fluid" alt="">
+
               <h4><a href="">BI and Analytics</a></h4>
               <p>- BI Reporting & Data viz.<br>
                 - Business Dashboard.<br>
@@ -260,7 +259,7 @@
 
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"> <img src="assets/img/serv/2.png" class="img-fluid" alt=""></div>
+              <img src="assets/img/serv/2.png" style="width:150px; height:100px;" class="img-fluid" alt="">
               <h4><a href="">Big Data</a></h4>
               <p>- All data necessary for business<br>
                 - Unstructed data, semi-structured as well as structured<br>
@@ -272,7 +271,7 @@
 
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"><img src="assets/img/serv/3.png" class="img-fluid" alt=""></div>
+              <img src="assets/img/serv/3.png" class="img-fluid" alt="" style="width:150px; height:100px;">
               <h4><a href="">Data quality mgmt & mdm</a></h4>
               <p>- Data cleansing, data dedup<br>
                 - Data quality<br>
@@ -286,7 +285,7 @@
 
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"><img src="assets/img/serv/4.png" class="img-fluid" alt=""></div>
+              <img src="assets/img/serv/4.png" class="img-fluid" alt="" style="width:150px; height:100px;">
               <h4><a href="">Data Warehouse</a></h4>
               <p>- Multi-layer modeling</p>
               <p> - Data vault 2.0</p>
@@ -299,7 +298,7 @@
 
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"><img src="assets/img/serv/5.png" class="img-fluid" alt=""></div>
+              <img src="assets/img/serv/5.png" style="width:150px; height:100px;" class="img-fluid" alt="">
               <h4><a href="">Database replication</a></h4>
               <p>- Replication/Mirroring </p>
               <p> - Synchronization </p>
@@ -311,7 +310,7 @@
 
           <div class="col-lg-4 col-md-6 d-fixed align-items-fixed mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box" style="height: 450px">
-              <div class="icon"><img src="assets/img/serv/6.png" class="img-fluid" alt=""></div>
+              <img src="assets/img/serv/6.png" class="img-fluid" alt="" style="width:150px; height:100px;">
               <h4><a href="">Data enrichment & Demographic/map</a></h4>
               <p>- Data enrichment (map, demographic, market survey, business directory, financial data, media sosial)</p>
               <p> - For BI and transactional app
