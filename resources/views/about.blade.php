@@ -1,17 +1,7 @@
 @extends('layouts\header')
 @section('content')
 <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div style="text-align:center ;" class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Making <span>your ideas
-          happen!
-        </span></h1>
-      <div style="text-align:center; padding-top:5%;" class="container">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
 
-      </div>
-    </div>
-  </section><!-- End Hero -->
 
   <main id="main">
 
@@ -388,4 +378,6 @@
 
     </div>
   </footer><!-- End Footer -->
+
+
 @endsection

@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get('/about', function () {
+    return view('about');
+});
 Route::get('/contact-form', [ContactController::class, 'contactForm'])->name('contact-form');
 
 Route::post('/contact-form', [ContactController::class, 'storeContactForm'])->name('contact-form.store');
