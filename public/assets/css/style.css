@@ -1647,3 +1647,51 @@ section {
         width: 100%;
     }
 }
+
+/*--------------------------------------------------------------
+# event
+--------------------------------------------------------------*/
+.event {
+    padding: 60px;
+    text-align: center;
+}
+.event img {
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+}
+.event img:hover {
+    transform: scale(1.15);
+}
+@media (max-width: 768px) {
+}
+
+@media (min-width: 400px) {
+    #video {
+        width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------
+# login
+--------------------------------------------------------------*/
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }

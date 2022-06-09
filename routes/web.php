@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
-
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LoginController;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +29,8 @@ Route::get('/about', function () {
 Route::get('/contact-form', [ContactController::class, 'contactForm'])->name('contact-form');
 
 Route::post('/contact-form', [ContactController::class, 'storeContactForm'])->name('contact-form.store');
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
