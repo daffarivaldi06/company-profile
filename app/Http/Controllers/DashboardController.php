@@ -11,6 +11,6 @@ class DashboardController extends Controller
 {
     public function index(){
         return view('dashboard.index', [
-            'users' => DB::table('users')->paginate(1)
+            'users' => DB::table('users')->paginate(10)
         ]);    }
 }
